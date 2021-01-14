@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    padding: 20px 50px 0 50px;
+}
+.nav .logo{
+    margin-right: 50px;
+    display: block;
+}
+.nav a{
+    color: #288bae;
+}
+
+.badge{
+    padding: 5px;
+}
+.container .daftar{
+    margin-top: 30px;
+}
+
+@media(max-width : 568px){
+    body{
+        padding: 25px;
+    }
+    .nav .logo{
+        display: none;
+    }
+    .nav{
+        padding-left: 0;
+    }
+}

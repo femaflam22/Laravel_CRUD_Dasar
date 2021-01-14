@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    padding: 20px 50px 0 50px;
+}
+.nav .logo{
+    margin-right: 50px;
+    display: block;
+}
+.nav a{
+    color: #288bae;
+}
+
+.container{
+    max-width: 500px;
+    margin: 7% auto;
+    border: 1px solid grey;
+    padding: 50px;
+}

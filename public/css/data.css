@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    padding: 20px 50px 0 50px;
+}
+.nav .logo{
+    margin-right: 50px;
+    display: block;
+}
+.nav a{
+    color: #288bae;
+}
+
+.container .table{
+    margin-top: 35px;
+    text-align: center;
+}
+.container .table a{
+    padding: 5px;
+}
+.container .hps button{
+    font-size: 11px;
+    padding: 2px;
+    font-weight: bold;
+}
+
+@media(max-width : 568px){
+    body{
+        padding: 25px;
+    }
+    .nav .logo{
+        display: none;
+    }
+    .nav{
+        padding-left: 0;
+    }
+}

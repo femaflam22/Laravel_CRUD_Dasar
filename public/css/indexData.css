@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    padding: 20px 50px 0 50px;
+}
+.nav .logo{
+    margin-right: 50px;
+    display: block;
+}
+.nav a{
+    color: #288bae;
+}
+
+h1{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.container .row .col .gambar img{
+    width: 85%;
+    margin: 35px;
+}
+
+.badge{
+    padding: 10px;
+}
+
+@media(max-width : 763px){
+    .container .row{
+        flex-direction: column;
+    }
+}
+@media(max-width : 568px){
+    body{
+        padding: 25px;
+    }
+    .nav .logo{
+        display: none;
+    }
+    .nav{
+        padding-left: 0;
+    }
+}
